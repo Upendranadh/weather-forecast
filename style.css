@@ -1,63 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(232, 255, 255, 0.5),
+    rgba(101, 233, 224, 0.5)
+  );
+  background-image: cover;
+  /* background-color: red; */
+}
+
+.flex-item1 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  padding: 1rem;
+}
+
+#city {
+  font-size: 3rem;
+}
+#temp {
+  font-size: 3rem;
+}
+#date {
+  font-size: 3rem;
+}
+#clouds {
+  font-size: 3rem;
+}
+/*
+
 .grid-container {
-        
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: white;
-    padding: 5px;
-    height: 100%;
-  }
-  .grid-item1{
-  
-      background-color: royalblue;
-      display: grid;
-  }
-  .grid-item{
-  
+  display: grid;
+  grid-template-columns: 50%;
+  background-color: white;
+  padding: 5px;
+  height: 100%;
+  margin: 2rem 30rem;
+  background-color: aliceblue;
+}
+.grid-item1 {
+  background-color: royalblue;
+  display: grid;
+}
+.grid-item {
   background-color: lightgrey;
   display: grid;
-  }
-  h1, h3{
-      color: white;
-      font-weight: bolder;
-      margin-top: 25%;
-  }
-  span{
-      color: black;
-      font-weight: bolder;
-  }
-  p{
-      color: white;
-      
-  }
-  li{
-      color: white;
-      
-  }
-  .bdy{
-      margin-left: 20%;
-  }
-  .dd{
-      margin-left: 25%;
-      margin-top: 10%;
-  }
-  #pp{
-      color: black;
-  }
-  #show{
-      color: black;
-      font-size: xx-large;
-  }
-  #show1,#show3{
-      color: black;
-      font-size: medium;
-  }
-  #show2{
-      color: black;
-      font-size: xx-large;
-  }
-  #tt{
-      margin-left: 20%;
-      margin-top: 20%;
-  }
-     
-    
+}
+h1,
+h3 {
+  color: white;
+  font-weight: bolder;
+  margin-top: 25%;
+}
+span {
+  color: black;
+  font-weight: bolder;
+}
+p {
+  color: white;
+}
+li {
+  color: white;
+}
+.bdy {
+  margin-left: 20%;
+}
+.dd {
+  margin-left: 25%;
+  margin-top: 10%;
+}
+#pp {
+  color: black;
+}
+#show {
+  color: black;
+  font-size: xx-large;
+}
+#show1,
+#show3 {
+  color: black;
+  font-size: medium;
+}
+#show2 {
+  color: black;
+  font-size: xx-large;
+}
+#tt {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+*/
